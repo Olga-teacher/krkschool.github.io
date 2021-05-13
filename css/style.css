@@ -1,0 +1,206 @@
+.container {
+width: 1048px;
+margin: 0 auto;
+padding:0;
+    
+}
+body{
+color:#000000;
+background-color: #ffffff;
+}
+.site-header{
+color:#ffffff;
+background-color:#222222;
+}
+.site-header .container{
+ background-image: url("../img/moon-rocket.png"); 
+    min-height: 400px;
+    padding-top: 50px;padding-bottom: 180px;
+    background-repeat: no-repeat;
+    background-position: 520px 250px;
+}
+.features{
+    padding:85px 0;
+    background-color:#131313;
+    color:#ffffff;
+}
+.feature-list{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feature-list li{
+    position: relative;
+    width: 180px;
+    margin-right: 40px;
+    padding-top: 100px;
+    font-size: 14px;
+    line-height: 20px;
+    color:#d4d4d4;
+}
+.columns-container{
+    display:flex;
+}
+.columns-container .left-column{
+    width:440px;
+    margin-right: 80px;
+}
+.columns-container .right-column{
+    width: 440px;
+}
+/*{
+    outline:1px solid orange;
+}
+.contacts-menu{
+   display:flex;
+  flex-wrap: wrap;
+    max-width:180px;
+    margin-right: 80px;
+    margin: 0px;
+    margin-top: 25px;
+    margin-left: auto;
+    padding: 0;
+}
+.contacts-menu a{
+    margin-left: 20px;
+}
+.site-menu{
+   display:flex;
+  flex-wrap: wrap;
+    width:660px;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+}
+.site-menu a{
+   display:flex;
+  font-size: 14px;
+    margin-right: 40px;
+   text-decoration: none;
+    color: #d4d4d4d4;
+}
+.btn{
+    position: :relative;
+    display: inline-block;
+    width: 195px;
+    padding: 0 25px;
+    border:none;
+    border-radius: 50px;
+   
+    background-color: #c1a300;
+}
+.about-us{
+    width: 300px;
+    padding-left: 120px;
+}
+.about-us h1{
+    margin-bottom: 40px
+        font-size:45px;
+    font-family: "Courier New";
+    color:white;
+}
+.about-us p{
+    margin-bottom: 50px;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    color:#d4d4d4;
+}
+.recomendations{
+padding-top: 20px;
+    padding-bottom: 55px;
+}
+.recomendations h3{
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Courier New";
+}
+.recomendations-list{
+    padding-left: 30px;
+    list-style: none;
+}
+.recomendations-list li{
+    position: relative;
+    margin-bottom: 20px;
+}
+.site-footer {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  color: #ffffff;
+
+  background-color: #131313;
+}
+
+
+.footer-menu {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-columns-container {
+  display: flex;
+}
+
+.footer-columns-container .left-column {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-right: 100px;
+}
+
+.footer-columns-container .right-column {
+  width: 720px;
+  padding-top: 35px;
+}
+.footer-menu > li {
+  width: 180px;
+  margin-right: 60px;
+}
+
+.footer-submenu-title {
+  display: block;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border-bottom: 1px solid #555555;
+}
+
+.footer-submenu {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-submenu > li {
+  margin-bottom: 20px;
+}
+
+.footer-submenu a {
+  text-decoration: none;
+  color: #888888;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.logo-container .logo {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.logo-container p {
+    font-size: 14px;
+}
